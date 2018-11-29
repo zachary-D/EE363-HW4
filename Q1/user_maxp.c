@@ -1,9 +1,11 @@
+#include<stdio.h>
+
 /* @ requires \ valid ( p ) && \ valid ( q ) ;
 ensures * p <= * q ;
 ensures (* p == \ old (* p ) && * q == \ old (* q ) ||
 * q == \ old (* p ) && * p == \ old (* q ) );
 */
-void maxptr(int * p, int * q);
+void maxptr(int * p, int * q)
 {
 	if(*p <= *q) return;
 	
@@ -17,18 +19,18 @@ int b = 5;
 
 void print()
 {
-	cout << a << ', ' << b << endl;
+	printf("%i, %i\n", a, b);
 }
 
-int main(int argc, char *[] argv)
+int main()
 {
 	print();
 
-	maxprt(&b, &a);
+	maxptr(&b, &a);
 
 	print();
 
-	maxprt(&a, &b);
+	maxptr(&a, &b);
 
 	print();
 
