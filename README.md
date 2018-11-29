@@ -1,1 +1,1 @@
-EE363-HW4
+To compile and run everything just run 'make execute'
