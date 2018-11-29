@@ -19,9 +19,13 @@ void maxptr(int * p, int * q)
 int a = 10;
 int b = 5;
 
+int *a_addr = &a;
+int *b_addr = &b;
+
 void print()
 {
 	printf("%i, %i\n", a, b);
+	if(&a != a_addr || &b != b_addr) printf("Pntr mismatch!");
 }
 
 int main()
