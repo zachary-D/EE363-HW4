@@ -9,9 +9,11 @@ void maxptr(int * p, int * q)
 {
 	if(*p <= *q) return;
 	
-	int * swap = p;
-	p = q;
-	q = swap;
+	int pAct = *p;
+	int qAct = *q;
+	
+	*q = pAct;
+	*p = qAct;
 }
 
 int a = 10;
