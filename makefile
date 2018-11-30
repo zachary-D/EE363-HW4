@@ -7,7 +7,7 @@ Q1.prog: damatozw_maxp.c
 	gcc -o Q1.prog damatozw_maxp.c -g
 
 IntSetTest.class: IntSetTest.java
-	javac IntSetTest.java -cp /usr/share/java/junit.jar
+	javac IntSetTest.java -cp /usr/share/java/junit.jar -cp dhouIntSet.jar
 	
 clean:
 	rm *.gch *.out *.prog *.o -rf
