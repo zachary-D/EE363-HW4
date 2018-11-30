@@ -14,4 +14,4 @@ clean:
 
 execute: all
 	./Q1.prog
-	java -cp dhouIntSet.jar IntSetTest.main
+	java IntSetTest -cp dhouIntSet.jar

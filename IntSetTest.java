@@ -1,6 +1,6 @@
 public class IntSetTest
 {
-	static void main()
+	public static void main(String[] args)
 	{
 		runTest1();
 	}
