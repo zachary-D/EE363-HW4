@@ -3,7 +3,7 @@
 //import static org.junit.Assert.assertFalse;
 //import static org.junit.Assert.assertEquals;
 
-import IntSet.IntSet;
+import dhouIntSet.IntSet;
 
 public class IntSetTest
 {
