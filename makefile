@@ -6,7 +6,7 @@ all: Q1.prog IntSetTest.class
 Q1.prog: damatozw_maxp.c
 	gcc -o Q1.prog damatozw_maxp.c -g
 
-IntSetTest.class: ItnSetTest.java
+IntSetTest.class: IntSetTest.java
 	javac IntSetTest.java
 	
 clean:
