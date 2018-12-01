@@ -7,14 +7,10 @@ import static org.junit.Assert.assertEquals;
 
 public class IntSetTest
 {
-	public static void main(String[] args)
-	{
-		runTest1();
-	}
-	
 	
 	//Tests adding a single element to the set
-	static void runTest1()
+	@Test
+	static void test1()
 	{
 		IntSet iSet = new IntSet();
 		
@@ -27,5 +23,11 @@ public class IntSetTest
 		assertTrue(iSet.size() == 1);
 		
 		System.out.println("Test complete.");
+	}
+	
+	@Test
+	static void test2()
+	{
+		
 	}
 }
