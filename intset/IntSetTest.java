@@ -83,24 +83,17 @@ public class IntSetTest
 		}		
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	/*
+		Tests IntSet.isIn()
+	*/
+	@Test
+	public void test5()
+	{
+		int arr = {1, 2, 3, 4, 5};
+		
+		IntSet iSet = new IntSet(arr);
+		
+		assertTrue(iSet.isIn(4));
+	}
 	
 }
