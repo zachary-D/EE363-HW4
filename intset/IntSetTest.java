@@ -89,7 +89,7 @@ public class IntSetTest
 	@Test
 	public void test5()
 	{
-		int arr = {1, 2, 3, 4, 5};
+		int arr[] = {1, 2, 3, 4, 5};
 		
 		IntSet iSet = new IntSet(arr);
 		
