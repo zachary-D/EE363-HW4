@@ -10,7 +10,7 @@ intset/IntSetTest.class: intset/IntSetTest.java
 	javac intset/*.java -cp /usr/share/java/junit.jar
 	
 clean:
-	rm *.gch *.out *.prog *.o -rf
+	rm *.gch *.out *.prog *.o *.class -rf
 
 execute: all
 	./Q1.prog
