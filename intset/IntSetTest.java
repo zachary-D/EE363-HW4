@@ -5,13 +5,6 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertEquals;
 
-
-//import framework.Assert.assertTrue;
-//import framework.Assert.assertFalse;
-//import framework.Assert.assertEquals;
-
-import abstractions.IntSet;
-
 public class IntSetTest
 {
 	public static void main(String[] args)
