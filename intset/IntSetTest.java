@@ -49,7 +49,7 @@ public class IntSetTest
 		
 		IntSet iSet = new IntSet(arr);
 		
-		iset.remove(2);
+		iSet.remove(2);
 		
 		int [] retarr = iSet.getAll();
 		
