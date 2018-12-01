@@ -14,4 +14,4 @@ clean:
 
 execute: all
 	./Q1.prog
-	java -cp /usr/share/java/junit.jar org.junit.runner.JUnitCore intset/IntSetTest
+	java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore intset.IntSetTest
