@@ -38,4 +38,26 @@ public class IntSetTest
 			assertEquals(retarr[i], arr[i]);
 		}
 	}
+	
+	/*
+		Tests IntSet.remove()
+	*/
+	@Test
+	public void test3()
+	{
+		int arr[] = {1, 2, 3};
+		
+		IntSet iSet = new IntSet(arr);
+		
+		iset.remove(2);
+		
+		int [] retarr = iSet.getAll();
+		
+		int [] afterArr = {1, 3};
+		
+		for(int i = 0; i < 3; i++)
+		{
+			assertEquals(retarr[i], afterArr[i]);
+		}
+	}
 }
