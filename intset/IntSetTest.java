@@ -33,7 +33,7 @@ public class IntSetTest
 		for(int i = 0; i < 3; i++)
 		{
 			//Makes sure the elements inserted are in the proper locations
-			assertEquals(iSet.find(arr[i]), i);
+			assertEquals(iSet.getAll(), arr);
 		}
 	}
 }
