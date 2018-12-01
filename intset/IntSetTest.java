@@ -32,7 +32,7 @@ public class IntSetTest
 		
 		for(int i = 0; i < 3; i++)
 		{
-			assertEqual(iSet.getAll(), arr);
+			assertEquals(iSet.getAll(), arr);
 		}
 	}
 }
