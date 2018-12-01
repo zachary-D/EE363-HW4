@@ -32,7 +32,6 @@ public class IntSetTest
 		iSet.insert(valToStore);
 		
 		assertTrue(iSet.size() == 1);
-		assertTrue(iSet.getIndex(0) == valToStore);
 		
 		System.out.println("Test complete.");
 	}
