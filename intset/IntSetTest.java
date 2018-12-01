@@ -10,7 +10,7 @@ public class IntSetTest
 	
 	//Tests adding a single element to the set
 	@Test
-	static void test1()
+	public void test1()
 	{
 		IntSet iSet = new IntSet();
 		
@@ -26,7 +26,7 @@ public class IntSetTest
 	}
 	
 	@Test
-	static void test2()
+	public void test2()
 	{
 		
 	}
