@@ -30,7 +30,7 @@ public class IntSetTest
 		
 		IntSet iSet = new IntSet(arr);
 		
-		retarr = iSet.getAll();
+		int [] retarr = iSet.getAll();
 		
 		for(int i = 0; i < 3; i++)
 		{
