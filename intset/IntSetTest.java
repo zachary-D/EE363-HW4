@@ -8,7 +8,9 @@ import static org.junit.Assert.assertEquals;
 public class IntSetTest
 {
 	
-	//Tests adding a single element to the set
+	/*
+		Tests the default constructor, to make sure it creates an empty IntSet
+	*/
 	@Test
 	public void test1()
 	{
@@ -16,18 +18,21 @@ public class IntSetTest
 		
 		//Make sure the intSet was initialized empty
 		assertTrue(iSet.size() == 0); 
-		
-		int valToStore = 5;	
-		iSet.insert(valToStore);
-		
-		assertTrue(iSet.size() == 1);
-		
-		System.out.println("Test complete.");
 	}
 	
+	/*
+		Tests the array constructor, to make sure it creates an IntSet containing the array
+	*/
 	@Test
 	public void test2()
 	{
+		arr[] = {1, 2, 5};
 		
+		IntSet iSet = new IntSet(arr);
+		
+		for(int i = 0; i < 3; i++)
+		{
+			assertTrue(iSet.getAll() == arr);
+		}
 	}
 }
