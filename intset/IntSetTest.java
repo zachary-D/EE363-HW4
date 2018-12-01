@@ -75,7 +75,7 @@ public class IntSetTest
 		
 		int [] retarr = iSet.getAll();
 		
-		arr = {1, 2, 3, 4};
+		arr = new int[] {1, 2, 3, 4};
 		
 		for(int i = 0; i < 4; i++)
 		{
