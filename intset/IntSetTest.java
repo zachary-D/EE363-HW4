@@ -30,10 +30,12 @@ public class IntSetTest
 		
 		IntSet iSet = new IntSet(arr);
 		
+		retarr = iSet.getAll();
+		
 		for(int i = 0; i < 3; i++)
 		{
 			//Makes sure the elements inserted are in the proper locations
-			assertEquals(iSet.getAll(), arr);
+			assertEquals(retarr[i], arr[i]);
 		}
 	}
 }
