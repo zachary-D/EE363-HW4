@@ -60,4 +60,47 @@ public class IntSetTest
 			assertEquals(retarr[i], afterArr[i]);
 		}
 	}
+	
+	/*
+		Tests IntSet.insert()
+	*/
+	@Test
+	public void test4()
+	{
+		int arr[] = {1, 2, 3};
+		
+		IntSet iSet = new IntSet(arr);
+		
+		iSet.insert(4);
+		
+		int [] retarr = iSet.getAll();
+		
+		arr = {1, 2, 3, 4};
+		
+		for(int i = 0; i < 4; i++)
+		{
+			assertEquals(retarr[i], arr[i]);
+		}		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
