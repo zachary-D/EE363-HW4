@@ -26,7 +26,7 @@ public class IntSetTest
 	@Test
 	public void test2()
 	{
-		arr[] = {1, 2, 5};
+		int arr[] = {1, 2, 5};
 		
 		IntSet iSet = new IntSet(arr);
 		
